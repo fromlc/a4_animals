@@ -77,8 +77,6 @@ bool typed_yes() {
 //------------------------------------------------------------------------------
 bool guess_animals_loop() {
 
-    bool guessed = false;
-
     int i = 0;
     //while (animal_names[i] != "") { // same as
     while (!animal_names[i].empty()) {
