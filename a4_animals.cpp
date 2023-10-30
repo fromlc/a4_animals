@@ -82,7 +82,7 @@ int main() {
 
         int found_index { };
         if (guess_animals_loop(found_index)) {
-            cout << ANIMAL_IS << g::animal_names[found_index] << "! ";
+            cout << ANIMAL_IS << g::animal_names[found_index] << EXCLAMATION;
             cout << I_WIN;
         }
         else {
