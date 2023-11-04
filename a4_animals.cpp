@@ -67,9 +67,10 @@ bool typed_yes() {
 
     char ch;
     cin >> ch;
-    ch = toupper(ch);
+    cin.clear();
+    cin.ignore(10000, '\n');
 
-    return ch == 'Y' ? true : false;
+    return toupper(ch) == 'Y' ? true : false;
 }
 
 //------------------------------------------------------------------------------
