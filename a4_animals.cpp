@@ -167,7 +167,6 @@ bool guess_animals_loop(int& found_index) {
 //------------------------------------------------------------------------------
 // -put a new animal and its sound in the arrays at passed next_index
 // -update reference param next_index
-//  -if the array is full, report the error
 //------------------------------------------------------------------------------
 void learn_animal(int next_index) {
 
